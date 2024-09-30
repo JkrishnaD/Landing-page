@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn{
+    @apply bg-black text-white px-3 py-1.5 text-sm rounded-lg;
+  }
+  .logo-image {
+    @apply h-8 w-auto;
+  }
+  .tag {
+    @apply border px-3 py-1 rounded-xl border-[#222]/10 inline-flex tracking-tight text-sm;
+  }
+  .section-title {
+    @apply font-bold text-3xl my-4 lg:pb-3 lg:text-6xl bg-gradient-to-b from-black to-[#001E80] bg-clip-text text-transparent;
+  }
+  .section-description{
+    @apply text-[22px] pt-4 tracking-wide font-light text-center px-3;
+  }
+  .card{
+    @apply border p-10 rounded-3xl shadow-[0_7px_14px_rgba(0,0,0,0.1)] w-full max-w-xs;
+  }
+}
